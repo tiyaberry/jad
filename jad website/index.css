@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+section{
+    position: relative;
+    padding: 100px;
+    background: rgb(241, 228, 233);
+    height: 90vh;
+}
+.heading{
+    font-size: 35px;
+    Font-Family: 'Arvo', Serif;
+
+}
+.sub{
+    font-size: 20px;
+    Font-Family: 'Lato', Sans-Serif;
+}
+/* Title */
+.title{
+    font-size: 100px;
+    font-family: 'Koulen', cursive;
+}
+.titles{
+    background-color: #546A7B;
+}
+.miniTitle{
+    font-family: 'Arvo', Serif;
+}
+/* Who Am I */
+.intro{
+    background-color:#D1D0C7
+}
+.introWave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.introWave svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 150px;
+}
+
+.introWave .shape-fill {
+    fill: #546A7B;
+}
+/* What Am I going to do */
+.plans{
+    background-color: #C6B7A9;
+}
+.plansWave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.plansWave svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 210px;
+}
+
+.plansWave .shape-fill {
+    fill: #D1D0C7;
+}
+.miniTitle{
+    font-size: 40px;
+}
+.plansTitle{
+    transform: translate(0%,70%);
+}
+/* bribery */
+.compensation{
+    background-color: #2D434E;
+}
+.bribesWaves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bribesWaves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 429px;
+}
+
+.bribesWaves .shape-fill {
+    fill: #C6B7A9;
+}
+.compensationTitle{
+    transform: translate(0%,400%);
+}
+.compensationPar{
+    transform: translate(0%,200%);
+}
+/* regular */
+
+/* mobile */
+ @media only screen and (width:390px){
+    .heading{
+        font-size: 20px;
+    }
+
+    .compensationPar {
+        transform: translate(0%,80%);
+}
+.compensationTitle {
+    transform: translate(0%,290%);
+}
+
+
+ }
+
+ @media only screen and (width:375px){
+    .introPara{
+        font-size: 17px;
+    }
+ }
+
+@media only screen and (width:414px){
+    .compensationTitle{
+        transform: translate(0%,100%);
+    }
+    .compensationPar{
+        transform: translate(0%,100%);
+    }
+
+    .plansTitle{
+        transform: translate(0%,30%);
+    }
+
+}
